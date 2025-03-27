@@ -1,0 +1,113 @@
+{
+  "activeProject": {
+    "skylineTowers": {
+      "id": 1,
+      "name": "Skyline Towers",
+      "status": "In Progress",
+      "completionPercentage": 65,
+      "recentTasks": [
+        {
+          "taskName": "Foundation Work",
+          "assignedTo": "John Smith",
+          "status": "Completed"
+        },
+        {
+          "taskName": "Steel Framework Installation",
+          "assignedTo": "Mike Johnson",
+          "status": "In Progress"
+        }
+      ],
+      "materialsInventory": {
+        "concrete": {
+          "materialName": "concrete",
+          "quantity": 500,
+          "unit": "cubic yards",
+          "status": "In Stock"
+        },
+        "steelBeams": {
+          "materialName": "steelBeams",
+          "quantity": 75,
+          "unit": "tons",
+          "status": "In Stock"
+        },
+        "lumber": {
+          "materialName": "lumber",
+          "quantity": 15,
+          "unit": "pallets",
+          "status": "Low Stock"
+        },
+        "bricks": {
+          "materialName": "bricks",
+          "quantity": 12000,
+          "unit": "pieces",
+          "status": "In Stock"
+        }
+      },
+      "workforce": {
+        "masons": { "count": 5, "rate": 2000 },
+        "carpenters": { "count": 4, "rate": 1800 },
+        "electricians": { "count": 3, "rate": 2200 },
+        "plumbers": { "count": 2, "rate": 2100 },
+        "laborers": { "count": 8, "rate": 1500 }
+      }
+    },
+    "harborViewComplex": {
+      "id": 2,
+      "name": "Harbor View Complex",
+      "status": "Planning",
+      "completionPercentage": 25,
+      "recentTasks": [
+        {
+          "taskName": "Site Preparation",
+          "assignedTo": "David Brown",
+          "status": "Completed"
+        },
+        {
+          "taskName": "Surveying & Layout",
+          "assignedTo": "Emma Davis",
+          "status": "In Progress"
+        }
+      ],
+      "materialsInventory": {
+        "concrete": {
+          "materialName": "concrete",
+          "quantity": 300,
+          "unit": "cubic yards",
+          "status": "In Stock"
+        },
+        "steelBeams": {
+          "materialName": "steelBeams",
+          "quantity": 10,
+          "unit": "tons",
+          "status": "Low Stock"
+        },
+        "lumber": {
+          "materialName": "lumber",
+          "quantity": 10,
+          "unit": "pallets",
+          "status": "Low Stock"
+        },
+        "bricks": {
+          "materialName": "bricks",
+          "quantity": 8000,
+          "unit": "pieces",
+          "status": "In Stock"
+        }
+      },
+      "workforce": {
+        "masons": { "count": 4, "rate": 2000 },
+        "carpenters": { "count": 3, "rate": 1800 },
+        "electricians": { "count": 2, "rate": 2200 },
+        "plumbers": { "count": 2, "rate": 2100 },
+        "laborers": { "count": 5, "rate": 1500 }
+      }
+    }
+  },
+  "dashboardSummary": {
+    "totalProjects": 2,
+    "activeProjects": 1,
+    "openTasks": 2,
+    "lowStockMaterials": 2,
+    "workersToday": 25
+  }
+}
