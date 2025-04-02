@@ -1,7 +1,12 @@
 const express = require("express");
 const fs = require("fs");
 const path = require("path");
+const cors = require("cors"); // Import cors middleware
+
 const app = express();
+
+// Enable CORS for all origins
+app.use(cors());
 
 // Function to read data from db.json
 const getDataFromFile = () => {
@@ -17,6 +22,7 @@ app.get("/api/projectData", (req, res) => {
 });
 
 // Start the server
-app.listen(3000, () => {
-  console.log("Server running at http://localhost:3000");
+const PORT = 3000;
+app.listen(PORT, () => {
+  console.log(`Server running at http://localhost:${PORT}`);
 });
